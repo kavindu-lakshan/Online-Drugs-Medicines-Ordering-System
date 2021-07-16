@@ -1,0 +1,214 @@
+@charset "ISO-8859-1";
+
+
+
+/*----------------------------------------------------LOGIN PAGE---------------------------------------------------------*/
+
+
+#bannerlogin{
+	background: rgba(0,0,0,0.65);
+	width: 100%;
+	padding: 70px 0;
+}
+
+.login-form{
+	
+	width: 400px;
+	height: 450px;
+	background-color: rgb(0,0,0,0.8),#009688;
+	top: 375px;
+	left: 50%;
+	padding:60px 30px;
+	margin-bottom:150px;
+	position: relative;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+	opacity:1;
+}
+
+#size{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.text{
+	text-align:center;
+	color:#fff;
+	padding-top: 10px;
+}
+.text h3{
+	font-size: 50px;
+	font-family: 'New Tegomin', serif;
+}
+
+.text p{
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Tinos', serif;
+}
+
+.text input[type=text],.text input[type=password]{
+	border:none;
+	border-bottom:1px solid white;
+	background: transparent;
+	outline:none;
+	height:30px;
+	font-size:16px;
+	opacity:1;
+	color: white;
+	
+}
+
+.text input[type=submit]{
+	margin: 40px auto 0;
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	background-color:  #009688;
+	color : white;
+	border: .5px solid #fff;
+	position: relative;
+}
+
+.text input[type=submit]:hover{
+	cursor:pointer;
+}
+
+@media screen and (max-width: 770px){
+	#banner1{
+		flex-basis: 100%;
+	}
+	
+	.login-form{
+		flex-basis: 100%;
+		bottom: 25% !important;
+	}
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+#welcome {
+	width: 100%;
+	padding: 70px 0;
+}
+
+.manu-box{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.manu{
+	flex-basis: 50%;
+}
+
+
+.manu h1{
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 100;
+	color: #009688;
+}
+
+.manu p{
+	padding: 0 20px;
+	text-align: initial;
+}
+
+.btns{
+	flex-basis: 80%;
+	margin:auto;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 35px;
+	
+}
+
+.btns input[type=submit]{
+	margin: 40px auto 0;
+	width: 150px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	background-color:  #009688;
+	color : white;
+	border: .5px solid #fff;
+	position: relative;
+}
+
+.btns input[type=submit]:hover{
+	cursor:pointer;
+	background: white;
+	border: 1px solid;
+	color: rgb(0, 213, 191);
+}
+
+
+@media screen and (max-width: 770px){
+	.manu h1{
+		font-size: 20px;
+	}
+	.manu{
+		flex-basis: 100%;
+	}
+	.features-img{
+		flex-basis: 100%;
+	}
+	.features-img img{
+		width: 100%;
+	}
+	.btns{
+		flex-basis: 100%;
+	}
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.addMed{
+	width: 100%;
+	padding: 70px 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
